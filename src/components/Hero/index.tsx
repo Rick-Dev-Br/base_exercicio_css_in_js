@@ -1,12 +1,13 @@
-import { HeroContainer, HeroContent, HeroTitle } from "./styles"
+import { Form, FormDiv, HeroTitle } from '../../components/Hero/styles';
 
 const Hero = () => (
-  <HeroContainer>
-    <HeroContent>
+  <Form>
+    <FormDiv className="container">
       <HeroTitle>
         As melhores vagas para tecnologia, design e artes visuais.
       </HeroTitle>
-    </HeroContent>
-  </HeroContainer>
-)
-export default Hero
+    </FormDiv>
+  </Form>
+);
+
+export default Hero;

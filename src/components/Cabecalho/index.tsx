@@ -1,7 +1,7 @@
 import { CabecalhoContainer } from './styles'
 
 const Cabecalho = () => (
-   <CabecalhoContainer>
+  <CabecalhoContainer>
     <h1>EBAC Jobs</h1>
   </CabecalhoContainer>
 )
